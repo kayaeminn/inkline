@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inkline — Fill every cell with one line</title>
+<meta name="description" content="Inkline is a calm, colorful one-line fill puzzle. Draw one continuous line to fill every cell. 95+ levels for kids and grown-ups.">
+<style>
+  :root{--bg:#0b0a23;--mut:#b6b4e4;--ac1:#38e0f0;--ac2:#7c8cff;--ac3:#c084fc;--ac4:#ff7ac6}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#eceaff;
+       background:radial-gradient(1000px 700px at 50% -5%,#2a1c66 0%,var(--bg) 55%);overflow-x:hidden}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+  header{text-align:center;padding:70px 0 30px}
+  .icon{width:108px;height:108px;border-radius:26px;box-shadow:0 18px 50px rgba(124,140,255,.45)}
+  h1{font-size:60px;margin:18px 0 4px;font-weight:800;letter-spacing:-1px;
+     background:linear-gradient(90deg,var(--ac1),var(--ac2),var(--ac3),var(--ac4));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tag{font-size:21px;color:var(--mut);margin:0 0 26px}
+  .cta{display:inline-block;padding:15px 30px;border-radius:16px;font-weight:700;text-decoration:none;color:#0b0a23;font-size:17px;
+       background:linear-gradient(90deg,var(--ac2),var(--ac4));box-shadow:0 12px 34px rgba(255,122,198,.35)}
+  .cta.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25);box-shadow:none;margin-left:10px}
+  .feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:54px 0}
+  .f{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:24px}
+  .f h3{margin:0 0 6px;font-size:19px} .f p{margin:0;color:var(--mut);line-height:1.6}
+  .dot{width:42px;height:42px;border-radius:13px;margin-bottom:12px;background:linear-gradient(135deg,var(--ac1),var(--ac4))}
+  .shots{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin:30px 0 10px}
+  .shots img{width:230px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.5)}
+  footer{text-align:center;color:var(--mut);font-size:14px;padding:60px 0 50px}
+  footer a{color:var(--ac1);text-decoration:none;margin:0 10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="icon" src="img/icon.png" alt="Inkline icon">
+    <h1>Inkline</h1>
+    <p class="tag">Fill every cell with one line. · Tek çizgiyle tüm kareleri doldur.</p>
+    <a class="cta" href="#">Download on the App Store</a>
+    <a class="cta ghost" href="support.html">Support</a>
+  </header>
+
+  <section class="shots">
+    <img src="img/shot1.png" alt="Inkline gameplay">
+    <img src="img/shot2.png" alt="Inkline levels">
+    <img src="img/shot3.png" alt="Inkline mechanics">
+  </section>
+
+  <section class="feat">
+    <div class="f"><div class="dot"></div><h3>One line, every cell</h3><p>Draw a single continuous line, without lifting your finger, to fill the whole grid.</p></div>
+    <div class="f"><div class="dot"></div><h3>95+ handcrafted levels</h3><p>From easy to expert — every level has exactly one solution.</p></div>
+    <div class="f"><div class="dot"></div><h3>Bridges &amp; gates</h3><p>Fresh mechanics keep your brain busy as you progress.</p></div>
+    <div class="f"><div class="dot"></div><h3>Fair stars &amp; free hints</h3><p>Stars reward clean play, not speed. Stuck? A hint is always there.</p></div>
+    <div class="f"><div class="dot"></div><h3>A new puzzle every day</h3><p>The Daily Puzzle is the same for everyone — build your streak.</p></div>
+    <div class="f"><div class="dot"></div><h3>For kids &amp; grown-ups</h3><p>Calm, colorful and easy to learn — relaxing for every age.</p></div>
+  </section>
+
+  <footer>
+    © 2026 Inkline · Emin Kaya
+    <div style="margin-top:10px">
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="support.html">Support</a> ·
+      <a href="mailto:eminkaya1903@hotmail.com">Contact</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
